@@ -7,10 +7,8 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Demo](#demo)
 - [Deployed](#deployedapplicationlink)
 - [Languages](#languages)
-- [Screenshot](#screenshot)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
@@ -40,18 +38,12 @@ so that they can organize thoughts and keep track of tasks needed to complete.
 
 
 ## Deployed application link
- https://linhbui88.github.io/-E-Commerce-Back-End/ <br/>
+https://intense-citadel-85513.herokuapp.com/<br/>
 
 
 ## Languages
 
 JavaScript, Node, Express<br />
-
-## Screenshot
-
-What the index.html file looks like once complete:<br/>
-
-![Sample Index.HTML](./assets/e-commerce-back-end.png) <br /> 
 
 ## License
 
