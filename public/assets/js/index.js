@@ -12,6 +12,7 @@ if (window.location.pathname === '/notes') {
   noteList = document.querySelectorAll('.list-container .list-group');
 }
 
+
 // Show an element
 const show = (elem) => {
   elem.style.display = 'inline';
@@ -51,7 +52,9 @@ const deleteNote = (id) =>
   });
 
 const renderActiveNote = () => {
+  console.log('test2')
   hide(saveNoteBtn);
+  console.log(activeNote)
 
   if (activeNote.id) {
     noteTitle.setAttribute('readonly', true);
@@ -72,6 +75,7 @@ const handleNoteSave = () => {
     text: noteText.value,
   };
   saveNote(newNote).then(() => {
+    console.log('TEST5')
     getAndRenderNotes();
     renderActiveNote();
   });
@@ -81,6 +85,7 @@ const handleNoteSave = () => {
 const handleNoteDelete = (e) => {
   // Prevents the click listener for the list from being called when the button inside of it is clicked
   e.stopPropagation();
+  console.log('test4')
 
   const note = e.target;
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
@@ -99,6 +104,7 @@ const handleNoteDelete = (e) => {
 const handleNoteView = (e) => {
   e.preventDefault();
   activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
+ 
   renderActiveNote();
 };
 
