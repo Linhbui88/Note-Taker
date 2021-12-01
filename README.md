@@ -38,7 +38,7 @@ so that they can organize thoughts and keep track of tasks needed to complete.
 
 
 ## Deployed application link
-https://intense-citadel-85513.herokuapp.com/<br/>
+[View application link](https://peaceful-stream-73445.herokuapp.com/)<br/>
 
 
 ## Languages
